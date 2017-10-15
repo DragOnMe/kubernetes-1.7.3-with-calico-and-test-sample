@@ -4,6 +4,11 @@
 #   calico/node:v2.6.1
 #   calico/cni:v1.11.0
 #   calico/kube-controllers:v1.0.0
+# 
+# Comment(by Bryan Lee, 2017/10/16)
+# Ref. from https://docs.projectcalico.org/v2.6/getting-started/kubernetes/
+# Frpm https://docs.projectcalico.org/v2.6/getting-started/kubernetes/installation/hosted/kubeadm/1.6/calico.yaml
+#
 
 # This ConfigMap is used to configure a self-hosted Calico installation.
 kind: ConfigMap
